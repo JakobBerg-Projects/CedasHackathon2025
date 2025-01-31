@@ -8,3 +8,5 @@ loguru>=0.7.3,<1.0.0
 ipykernel>=6.29.5,<7.0.0
 imblearn>=0.0,<1.0.0
 marimo>=0.10.17
+pyarrow>=19.0.0
+fastparquet>=2024.11.0

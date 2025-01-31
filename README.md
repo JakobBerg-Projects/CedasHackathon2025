@@ -12,4 +12,4 @@ Create the folder `data` in `src`
 
 ### Using pip
 
-`pip install requirements.txt`
+`pip install -r requirements.txt`
