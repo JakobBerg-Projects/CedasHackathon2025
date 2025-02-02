@@ -6,4 +6,6 @@ src/data
 .DS_Store
 ***/.DS_Store
 src/henrik/models
+src/henrik/models2
 src/henrik/saved_data
+src/henrik/saved_data2
