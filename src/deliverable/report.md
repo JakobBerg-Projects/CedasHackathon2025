@@ -1,4 +1,4 @@
-# Predicting power consumption and SoC for electric cars by Watt The Data
+# Predicting power consumption for electric cars by Watt The Data
 
 ## Part 1: Exploring, processing, gaining insight from the data
 
@@ -8,7 +8,7 @@ We have a dataset containing information on approximately 100,000 electric car c
 
 Overview of the number of charging sessiong over datasets time span, showing a general increasing trend. The figure illustrates how charging activity has changed over time, potentially indicating shifts in demand, seasonality, or other influencing factors.
 
-![Nominal powers](visualizations/distributions%20of%20nominal%20powers.png)
+<img src="visualizations/distributions%20of%20nominal%20powers.png" width="300" height="300">
 
 The pie chart illustrates the distribution of nominal power categories across the dataset.
 
@@ -25,7 +25,7 @@ This line plot displays the median power at each minute, categorized by season. 
 
 To investigate the impact of seasonality on power curves, we visualize average power by month in a line plot, colored by average temperature. A clear seasonal trend emerges, where warmer months start with higher power and gradually decline throughout the session. In contrast, colder months begin with lower power, increase to a peak, and then decrease toward the end.
 
-![Power consumption in day](visualizations/total%20power%20consumption%20each%20hour.png)
+<img src="visualizations/total%20power%20consumption%20each%20hour.png" width="400" height="200">
 
 This histogram shows total power consumption by the hour of the day. We observe an aggregated consumption pattern peaking around midday, forming a distribution resembling a normal curve.
 
