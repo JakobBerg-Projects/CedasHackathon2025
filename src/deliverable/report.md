@@ -5,22 +5,28 @@ We have a dataset containing information on approximately 100,000 electric car c
 
 ![Time](visualizations/time.png)
 
-![Nominal Power Dist](visualizations/nominal%20power%20distribution.png)
+Overview of the number of charging sessiong over datasets time span, showing a general increasing trend. The figure illustrates how charging activity has changed over time, potentially indicating shifts in demand, seasonality, or other influencing factors.
 
-A general trend we see is that the charging power reduces when the SOC is increasing. Specifically around when reaching the 80% state of charge level.
+## legg til kake diagram
+
+The pie chart illustrates the distribution of nominal power categories across the dataset.
+
 ![SOC vs Power](visualizations/SOC%20vs%20Power%20trend.png)
 
-For all the different nominal powers, the power consumption to the car follows the same pattern that it slowly declines over time.
-![Power for each nominal power](visualizations/power%20trend%20for%20different%20nominal%20powers.png)
+The line plot visualizes the relationship between state of charge (SoC) and charging power over time. 
+A general trend emerges, showing a linear increase in SoC while power gradually declines. Notably, the charging power reduction becomes more pronounced as SoC approaches 80%.
 
-When we also include the State of Charge trend we can see the same pattern as earlier. 
-![SOC vs Power for each nominal](visualizations/SOC%20vs%20power%20for%20each%20nominal%20power.png)
-
-The power is also greatly impacted by the month of the charging. Likely because of weather conditions.
 ![Power each season](visualizations/median%20power%20each%20season.png)
 
-Specifically we see that the colder seasons have a slower charging rate. When we look at each month seperately we can see that some month correlate highly together. The colder the month, the longer time the charger uses to reach optimal power. January and December are the slowest as they are the coldest months. November, February and March also have similar powar as they have roughly the same temperature. The months June, July and August have the fastest time to reaching optimal charging power.
+This line plot displays the median power at each minute, categorized by season.  We observe that winter starts at the lowest power level and follows a flatter curve, while summer begins at the highest and declines more steeply over time. Interestingly, spring and autumn exhibit nearly identical curves, suggesting similar charging power behavior in these transitional seasons. Likely because of weather conditions.
+
 ![Power each month](visualizations/median%20power%20each%20month.png)
+
+To investigate the impact of seasonality on power curves, we visualize average power by month in a line plot, colored by average temperature. A clear seasonal trend emerges, where warmer months start with higher power and gradually decline throughout the session. In contrast, colder months begin with lower power, increase to a peak, and then decrease toward the end.
+
+### legge til normal fordeling
+
+This histogram shows total power consumption by the hour of the day. We observe an aggregated consumption pattern peaking around midday, forming a distribution resembling a normal curve.
 
 
 ## Data preperation
