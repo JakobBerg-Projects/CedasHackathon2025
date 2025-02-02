@@ -7,5 +7,11 @@ src/data
 ***/.DS_Store
 src/henrik/models
 src/henrik/models2
+src/henrik/models3
 src/henrik/saved_data
 src/henrik/saved_data2
+
+src/cedas_2025_watt_the_data
+src/cedas_2025_watt_the_data.zip
+src/henrik/test_holdback_predictions_v2.parquet
+test_holdback_predictions.parquet
