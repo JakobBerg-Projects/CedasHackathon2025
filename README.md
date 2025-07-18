@@ -1,7 +1,7 @@
 # CEDASHackathon2025
 This project was developed for the CEDAS Data Science Hackathon 2025, a competitive 48-hour event hosted at the University of Bergen. Participants were tasked with analyzing and modeling a dataset from Eviny, containing thousands of electric vehicle (EV) charging sessions. Our goal was to explore trends in EV charging behavior and build predictive models to forecast future charging patterns.
 
-## 🧠 Objective
+### 🧠 Objective
 
 The hackathon challenge involved:
 
@@ -13,7 +13,7 @@ Building predictive models to estimate power consumption and charging behavior o
 
 Communicating results effectively through a final report and presentation.
 
-## 📂 Dataset
+### 📂 Dataset
 
 The dataset was provided by Eviny, a leading Norwegian energy company, and included:
 
@@ -25,7 +25,7 @@ Variables such as energy delivered, charging time, start/end time, location, pow
 
 No prior domain knowledge in energy or EVs was required, but experience with data science, visualization, and machine learning was highly beneficial.
 
-## 🛠️ Tools & Technologies
+### 🛠️ Tools & Technologies
 We used the following tools during the hackathon:
 
 Python – Primary programming language
@@ -40,7 +40,7 @@ Jupyter Notebooks – Prototyping and collaboration
 
 Git – Version control
 
-## ✅ Results
+### ✅ Results
 Built a regression model that achieved solid performance on the holdout dataset.
 
 Identified clear seasonal and time-of-day trends in EV charging.
